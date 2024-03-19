@@ -3,16 +3,16 @@ import MainLayout from "../mainLayout/MainLayout";
 import Home from "../pages/Home";
 
 const Router = createBrowserRouter([
-    {
-        path: '',
-        element: <MainLayout></MainLayout>,
-        children: [
-            {
-                path: '/',
-                element: <Home></Home>
-            }
-        ]
-    }
-])
+  {
+    path: "",
+    element: <MainLayout></MainLayout>,
+    children: [
+      {
+        path: "/",
+        element: <Home></Home>,
+      },
+    ],
+  },
+]);
 
 export default Router;
